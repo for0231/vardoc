@@ -1,0 +1,30 @@
+name: Vardoc
+type: profile
+description: 'Vardoc: Knowledge Base System and Documentation Site'
+# core: 8.x
+# version: 8.x-1.0-rc5
+base profile:
+  name: varbase
+dependencies:
+  - action
+  - tracker
+  - aggregator
+  - fontawesome
+themes:
+  # Contrib themes.
+  - adminimal_theme
+  - bootstrap
+
+  # Custom themes.
+  - vardoctheme
+  - vartheme
+  - vartheme_admin
+distribution:
+  name: Vardoc
+features: true
+
+# Information added by Drupal.org packaging script on 2018-04-27
+version: '8.x-1.0-rc5'
+core: '8.x'
+project: 'vardoc'
+datestamp: 1524855489

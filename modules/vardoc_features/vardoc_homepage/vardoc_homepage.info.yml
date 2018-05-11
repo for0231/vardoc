@@ -1,0 +1,32 @@
+name: 'Vardoc Homepage'
+description: 'Homepage feature for Vardoc.'
+type: module
+# core: 8.x
+# version: 8.x-1.0-rc5
+package: Vardoc
+dependencies:
+  - better_normalizers
+  - block
+  - block_class
+  - block_content
+  - default_content
+  - ds
+  - entity_browser
+  - entityqueue
+  - field
+  - field_group
+  - node
+  - page_manager
+  - panels
+  - text
+  - varbase_core
+  - varbase_media
+  - varbase_webform
+  - vardoc_book
+  - views
+
+# Information added by Drupal.org packaging script on 2018-04-27
+version: '8.x-1.0-rc5'
+core: '8.x'
+project: 'vardoc'
+datestamp: 1524855489

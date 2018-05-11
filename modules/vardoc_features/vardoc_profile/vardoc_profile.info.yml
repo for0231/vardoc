@@ -1,0 +1,32 @@
+name: 'Vardoc Profile'
+description: 'Provides User profile features like favorite content and latest content.'
+type: module
+# core: 8.x
+# version: 8.x-1.0-rc5
+package: Vardoc
+dependencies:
+  - block
+  - block_class
+  - datetime
+  - ds
+  - field
+  - field_group
+  - file
+  - flag
+  - focal_point
+  - history
+  - image
+  - menu_block
+  - node
+  - panelizer
+  - smart_trim
+  - user
+  - varbase_media
+  - vardoc_book
+  - views
+  
+# Information added by Drupal.org packaging script on 2018-04-27
+version: '8.x-1.0-rc5'
+core: '8.x'
+project: 'vardoc'
+datestamp: 1524855489

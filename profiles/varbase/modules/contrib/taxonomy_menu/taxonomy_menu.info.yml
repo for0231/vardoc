@@ -1,0 +1,10 @@
+name: Taxonomy Menu
+type: module
+description: Embed a taxonomy tree into a menu
+core: 8.x
+package: Menu
+configure: entity.taxonomy_menu.collection
+# Information added by drush on 2018-01-22
+version: '8.x-3.3+13-dev'
+project: 'taxonomy_menu'
+datestamp: 1516611804

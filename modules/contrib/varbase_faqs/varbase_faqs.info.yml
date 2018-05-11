@@ -1,0 +1,29 @@
+name: 'Varbase FAQ'
+description: 'Provides FAQ content type and related configuration. A frequently asked question and its answer.'
+type: module
+# core: 8.x
+dependencies:
+  - block
+  - block_class
+  - faq
+  - field
+  - menu_ui
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - rabbit_hole
+  - system
+  - taxonomy
+  - text
+  - user
+  - views
+package: Varbase
+# version: 8.x-4.x-dev
+
+# Information added by Drupal.org packaging script on 2018-04-02
+version: '8.x-4.0-alpha2'
+core: '8.x'
+project: 'varbase_faqs'
+datestamp: 1522674186

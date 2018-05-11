@@ -1,0 +1,13 @@
+name: 'Type Style Moderation'
+type: module
+description: 'Adds Type Style support to the Workbench/Content Moderation modules.'
+version: VERSION
+core: 8.x
+package: Other
+dependencies:
+  - type_style
+
+# Information added by drush on 2017-12-11
+version: '8.x-1.x-dev'
+project: 'type_style'
+datestamp: 1513033848

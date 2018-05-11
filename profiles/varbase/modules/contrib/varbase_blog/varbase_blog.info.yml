@@ -1,0 +1,44 @@
+name: 'Varbase blog'
+description: 'Provides Blog post content type and related configuration. Use Blog to publish blog post by different authors in the Blog section of the site.'
+type: module
+# core: 8.x
+package: Varbase
+dependencies:
+  - varbase_media
+  - varbase_seo
+  - autocomplete_deluxe
+  - block
+  - block_class
+  - ctools
+  - ds
+  - entity_browser
+  - field
+  - field_group
+  - menu_block
+  - menu_ui
+  - metatag
+  - node
+  - page_manager
+  - panelizer
+  - panels
+  - path
+  - pathauto
+  - rabbit_hole
+  - smart_trim
+  - statistics
+  - system
+  - taxonomy
+  - taxonomy_menu
+  - text
+  - user
+  - views
+  - views_bootstrap
+  - vmi
+  - yoast_seo
+# version: 8.x-4.x-dev
+
+# Information added by Drupal.org packaging script on 2018-04-11
+version: '8.x-4.0-alpha2'
+core: '8.x'
+project: 'varbase_blog'
+datestamp: 1523459887

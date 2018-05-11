@@ -1,0 +1,12 @@
+name: 'Type Style'
+type: module
+description: 'Adds configuration to distinctly style types (entity bundles).'
+version: VERSION
+core: 8.x
+package: Other
+configure: type_style.settings
+
+# Information added by drush on 2017-12-11
+version: '8.x-1.x-dev'
+project: 'type_style'
+datestamp: 1513033848

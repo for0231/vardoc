@@ -1,0 +1,28 @@
+name: 'Vardoc Search'
+description: 'Provides Vardoc Search API configuration.'
+type: module
+# core: 8.x
+# version: 8.x-1.0-rc5
+package: Vardoc
+dependencies:
+  - better_exposed_filters
+  - block
+  - block_class
+  - ctools
+  - ds
+  - node
+  - panelizer
+  - search_api
+  - search_api_db
+  - system
+  - text
+  - ultimate_cron
+  - user
+  - vardoc_book
+  - views
+
+# Information added by Drupal.org packaging script on 2018-04-27
+version: '8.x-1.0-rc5'
+core: '8.x'
+project: 'vardoc'
+datestamp: 1524855489
